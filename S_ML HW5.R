@@ -1,23 +1,3 @@
-# STAT5241 S_ML HW5
-# Litong Wen  UNI:lw2627
-# Problem 1
-# a. 
-plot(NA,NA,type="n",xlim = c(-4, 2),ylim = c(-1, 5),asp = 1,xlab = "X1",ylab = "X2")
-symbols(c(-1), c(2), circles = c(2), add = TRUE, inches = FALSE)
-# b.
-plot(NA,NA,type="n",xlim = c(-4, 2),ylim = c(-1, 5),asp = 1,xlab = "X1",ylab = "X2")
-symbols(c(-1), c(2), circles = c(2), add = TRUE, inches = FALSE)
-text(c(-1), c(2), "< 4")
-text(c(-4), c(2), "> 4")
-# c.
-plot(c(0, -1, 2, 3), c(0, 1, 2, 8), col = c("blue", "red", "blue", "blue"),type = "p", asp = 1, xlab = "X1", ylab = "X2")
-symbols(c(-1), c(2), circles = c(2), add = TRUE, inches = FALSE)
-text(c(0),c(0),pos=4,"(0,0) blue",cex=0.7)
-text(c(-1),c(1),pos=3,"(-1,1) red",cex=0.7)
-text(c(2),c(2),pos=3,"(2,2) blue",cex=0.7)
-text(c(3),c(8),pos=1,"(3,8) blue",cex=0.7)
-
-# problem 3
 # set up package
 library(e1071)
 # load data
